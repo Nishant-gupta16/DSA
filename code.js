@@ -1,87 +1,152 @@
-// let n=6;
-// let sum=0;
-// let count=1;
+// ======================================================
+// Question 1: Print "Nishant"
 
-// // if(sum>=n){
-// //     sum=sum+count;
-// //     console.log(sum)
-// // }
-// // for(let i=0; i<=n;i++){
-// //     sum=sum+i;
-    
-// // }
+// console.log("Nishant");
 
-// // console.log(sum)
+// ======================================================
+// Question 2: Find the sum of numbers from 1 to n using while loop.
 
-// // if (n>=sum){
-// //     sum=sum+count;
-// //     count++
-// //     console.log(sum)
-// // }
+// let n = 3;
+// let sum = 0;
+// let i = 1;
 
-// while(count<=n){
-//     sum=sum+count;
-//     count++;
+// while (i <= n) {
+//     sum += i;
+//     i++;
 // }
-// console.log(sum)
 
+// console.log(sum);
 
-// let n=99;
-// let i=2;
-// while(i<=n){
-//     if (n%i==0){
-//         console.log(`not prime`)
+// ======================================================
+// Question 3: Find the factorial of a number.
+
+// let num = 5;
+// let fact = 1;
+
+// for (let i = 1; i <= num; i++) {
+//     fact *= i;
+// }
+
+// console.log(fact);
+
+// ======================================================
+// Question 4: Check whether a number is Prime or Not.
+
+// let num = 7;
+// let isPrime = true;
+
+// if (num <= 1) {
+//     isPrime = false;
+// }
+
+// for (let i = 2; i * i <= num; i++) {
+//     if (num % i === 0) {
+//         isPrime = false;
+//         break;
 //     }
-//     else{
-//         console.log(`prime`)
+// }
+
+// if (isPrime) {
+//     console.log("Number is Prime");
+// } else {
+//     console.log("Number is Not Prime");
+// }
+
+// ======================================================
+// Question 5: Take name as input and print it.
+
+// Browser
+// let name = prompt("Enter Your Name");
+// console.log(name);
+
+// Node.js
+// const readline = require("readline").createInterface({
+//     input: process.stdin,
+//     output: process.stdout,
+// });
+
+// readline.question("Enter Your Name: ", (name) => {
+//     console.log(name);
+//     readline.close();
+// });
+
+// ======================================================
+// Question 6: Find the sum of two numbers.
+
+// let a = 10;
+// let b = 20;
+
+// console.log("Sum =", a + b);
+
+// ======================================================
+// Question 7: Check whether a character is lowercase or uppercase.
+
+// let ch = "A";
+
+// if (ch >= "a" && ch <= "z") {
+//     console.log("Lowercase");
+// } else {
+//     console.log("Uppercase");
+// }
+
+// ======================================================
+// Question 8: Print ASCII value of a character.
+
+// let ch = "A";
+
+// console.log(ch.charCodeAt(0));
+
+// ======================================================
+// Question 9: Print all even numbers from 1 to n and find their sum.
+
+// let num = 20;
+// let sum = 0;
+
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 === 0) {
+//         console.log(i);
+//         sum += i;
 //     }
-//     break
 // }
 
+// console.log("Sum =", sum);
 
-// let n=5;
-// let value=1;
-// let i=1;
+// ======================================================
+// Question 10: Print all odd numbers from 1 to n and find their sum.
 
-// while(i<=n){
-//     value=value*i;
-//     i++
-// }
-// console.log(value);
+// let num = 20;
+// let sum = 0;
 
-// let n=5;
-// let value=1;
-// for(let i=1;i<=n;i++){
-//     value*=i
-// }
-// console.log(value)
-
-// let a =28;
-// let b=23;
-
-// if(a>b){
-//     console.log(a+" max")
-// }
-// else{
-//     console.log(b+"max")
+// for (let i = 1; i <= num; i++) {
+//     if (i % 2 !== 0) {
+//         console.log(i);
+//         sum += i;
+//     }
 // }
 
+// console.log("Sum =", sum);
 
-// let age=12;
+// ======================================================
+// Question 11: Print numbers from 1 to n using do-while loop.
 
-// if(age>=18){
-//     console.log(" get license")
+// let num = 20;
+// let i = 1;
+
+// do {
+//     console.log(i);
+//     i++;
+// } while (i <= num);
+
+// ======================================================
+// Question 12: Find the sum of numbers divisible by 3.
+
+// let num = 30;
+// let sum = 0;
+
+// for (let i = 1; i <= num; i++) {
+//     if (i % 3 === 0) {
+//         sum += i;
+//     }
 // }
-// else{
-//     console.log("not get license")
-// }
 
-
-// let p=100;
-// let r=23;
-// let t= 2;
-
-// let si=(p*r*t)/100
-
-// console.log(si)
-
+// console.log(sum);

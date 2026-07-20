@@ -11,10 +11,10 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // 1 2 3 4 
-    // 1 2 3 4 
-    // 1 2 3 4 
-    // 1 2 3 4 
+    // 1 2 3 4
+    // 1 2 3 4
+    // 1 2 3 4
+    // 1 2 3 4
 
     // QUESTION 2: Print stars (*) in a 4x4 grid pattern
     // int num =4;
@@ -25,10 +25,10 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // * * * * 
-    // * * * * 
-    // * * * * 
-    // * * * * 
+    // * * * *
+    // * * * *
+    // * * * *
+    // * * * *
 
     // QUESTION 3: Print alphabets A to E in each row of 5x5 grid (resetting each row)
     // int num=5;
@@ -41,11 +41,11 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // A B C D E 
-    // A B C D E 
-    // A B C D E 
-    // A B C D E 
-    // A B C D E 
+    // A B C D E
+    // A B C D E
+    // A B C D E
+    // A B C D E
+    // A B C D E
 
     // QUESTION 4: Print alphabets continuously (A to Y) in 5x5 grid without resetting
     // int num=5;
@@ -58,11 +58,11 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // A B C D E 
-    // F G H I J 
-    // K L M N O 
-    // P Q R S T 
-    // U V W X Y 
+    // A B C D E
+    // F G H I J
+    // K L M N O
+    // P Q R S T
+    // U V W X Y
 
     // QUESTION 5: Print numbers 1 to 64 in an 8x8 grid
     // int n=8;
@@ -75,14 +75,14 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // 1 2 3 4 5 6 7 8 
-    // 9 10 11 12 13 14 15 16 
-    // 17 18 19 20 21 22 23 24 
-    // 25 26 27 28 29 30 31 32 
-    // 33 34 35 36 37 38 39 40 
-    // 41 42 43 44 45 46 47 48 
-    // 49 50 51 52 53 54 55 56 
-    // 57 58 59 60 61 62 63 64 
+    // 1 2 3 4 5 6 7 8
+    // 9 10 11 12 13 14 15 16
+    // 17 18 19 20 21 22 23 24
+    // 25 26 27 28 29 30 31 32
+    // 33 34 35 36 37 38 39 40
+    // 41 42 43 44 45 46 47 48
+    // 49 50 51 52 53 54 55 56
+    // 57 58 59 60 61 62 63 64
 
     // QUESTION 6: Print numbers 1 to 36 in a 6x6 grid (note: loop goes <= n, so 6 iterations)
     // int n=5;
@@ -95,12 +95,12 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // 1 2 3 4 5 6 
-    // 7 8 9 10 11 12 
-    // 13 14 15 16 17 18 
-    // 19 20 21 22 23 24 
-    // 25 26 27 28 29 30 
-    // 31 32 33 34 35 36 
+    // 1 2 3 4 5 6
+    // 7 8 9 10 11 12
+    // 13 14 15 16 17 18
+    // 19 20 21 22 23 24
+    // 25 26 27 28 29 30
+    // 31 32 33 34 35 36
 
     // QUESTION 7: Print right-angled triangle pattern of stars
     // int n=5;
@@ -111,11 +111,11 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // * 
-    // * * 
-    // * * * 
-    // * * * * 
-    // * * * * * 
+    // *
+    // * *
+    // * * *
+    // * * * *
+    // * * * * *
 
     // QUESTION 8: Print triangle with row numbers repeated
     // int n=4;
@@ -160,11 +160,11 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // A 
-    // B C 
-    // D E F 
-    // G H I J 
-    // K L M N O 
+    // A
+    // B C
+    // D E F
+    // G H I J
+    // K L M N O
 
     // QUESTION 11: Print triangle with continuous numbers (1 to 10)
     // int n=4;
@@ -177,10 +177,10 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // 1 
-    // 2 3 
-    // 4 5 6 
-    // 7 8 9 10 
+    // 1
+    // 2 3
+    // 4 5 6
+    // 7 8 9 10
 
     // QUESTION 12: Print triangle with same alphabet per row (A, BB, CCC, etc.)
     // int n=5;
@@ -210,11 +210,11 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // 1 
-    // 1 2 
-    // 1 2 3 
-    // 1 2 3 4 
-    // 1 2 3 4 5 
+    // 1
+    // 1 2
+    // 1 2 3
+    // 1 2 3 4
+    // 1 2 3 4 5
 
     // QUESTION 14: Print right-angled triangle with numbers 1 to row number
     // int n=5;
@@ -261,11 +261,11 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // 1 
-    // 3 2 
-    // 6 5 4 
-    // 10 9 8 7 
-    // 15 14 13 12 11 
+    // 1
+    // 3 2
+    // 6 5 4
+    // 10 9 8 7
+    // 15 14 13 12 11
 
     // QUESTION 18: Triangle pattern with descending alphabets
     // int n=5;
@@ -279,11 +279,11 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // A 
-    // C B 
-    // F E D 
-    // J I H G 
-    // O N M L K 
+    // A
+    // C B
+    // F E D
+    // J I H G
+    // O N M L K
 
     // QUESTION 19: Print triangle with alphabets A, AB, ABC, etc.
     // int n=4;
@@ -296,10 +296,10 @@ int main()
     //     cout<<endl;
     // }
     // OUTPUT:
-    // A 
-    // A B 
-    // A B C 
-    // A B C D 
+    // A
+    // A B
+    // A B C
+    // A B C D
 
     // QUESTION 20: Floyd's triangle with descending numbers (same as question 17)
     // int n = 4;
@@ -315,10 +315,10 @@ int main()
     //     cout << endl;
     // }
     // OUTPUT:
-    // 1 
-    // 3 2 
-    // 6 5 4 
-    // 10 9 8 7 
+    // 1
+    // 3 2
+    // 6 5 4
+    // 10 9 8 7
 
     // QUESTION 21: Print right-aligned triangle with row numbers
     // int n=5;
@@ -374,4 +374,206 @@ int main()
     //  EFG
     //   HI
     //    J
+
+    // QUESTION 24: Print Palindrome Number Pyramid
+    // int n = 4;
+
+    // for (int i = 0; i < n; i++)
+    // {
+        // Print Spaces
+    //     for (int j = 0; j < n - i; j++)
+    //     {
+    //         cout << " ";
+    //     }
+
+        // Print Increasing Numbers
+    //     for (int j = 0; j <= i; j++)
+    //     {
+    //         cout << j + 1;
+    //     }
+
+        // Print Decreasing Numbers
+    //     for (int j = i; j > 0; j--)
+    //     {
+    //         cout << j;
+    //     }
+
+    //     cout << endl;
+    // }
+
+    // OUTPUT:
+    //     1
+    //    121
+    //   12321
+    //  1234321
+
+
+    // QUESTION 25: Print Reverse Number Triangle
+    // int n = 4;
+
+    // for (int i = 0; i < n; i++)
+    // {
+        // Print Spaces
+    //     for (int j = 1; j <= n - i - 1; j++)
+    //     {
+    //         cout << " ";
+    //     }
+
+        // Print Numbers
+    //     for (int j = i + 1; j > 0; j--)
+    //     {
+    //         cout << j;
+    //     }
+
+    //     cout << endl;
+    // }
+
+    // OUTPUT:
+    //    1
+    //   21
+    //  321
+    // 4321
+
+
+    // QUESTION 26: Print Diamond Number Pattern
+    // int n = 5;
+
+    // Upper Half
+    // for (int i = 0; i < n; i++)
+    // {
+        // Print Spaces
+    //     for (int j = 1; j < n - i; j++)
+    //     {
+    //         cout << " ";
+    //     }
+
+        // Print Increasing Numbers
+    //     for (int j = 0; j <= i; j++)
+    //     {
+    //         cout << j + 1;
+    //     }
+
+        // Print Decreasing Numbers
+    //     for (int j = i; j > 0; j--)
+    //     {
+    //         cout << j;
+    //     }
+
+    //     cout << endl;
+    // }
+
+    // Lower Half
+    // for (int i = 0; i < n; i++)
+    // {
+        // Print Spaces
+    //     for (int j = 0; j < i; j++)
+    //     {
+    //         cout << " ";
+    //     }
+
+        // Print Increasing Numbers
+    //     for (int j = 0; j < n - i; j++)
+    //     {
+    //         cout << j + 1;
+    //     }
+
+        // Print Decreasing Numbers
+    //     for (int j = n - i - 1; j > 0; j--)
+    //     {
+    //         cout << j;
+    //     }
+
+    //     cout << endl;
+    // }
+
+    // OUTPUT:
+    //     1
+    //    121
+    //   12321
+    //  1234321
+    // 123454321
+    // 123454321
+    //  1234321
+    //   12321
+    //    121
+    //     1
+
+
+    // QUESTION 27: Print Hollow Diamond Star Pattern
+    // int n = 10;
+
+    // Upper Half
+    // for (int i = 0; i < n; i++)
+    // {
+        // Print Left Spaces
+    //     for (int j = 0; j < n - i - 1; j++)
+    //     {
+    //         cout << " ";
+    //     }
+
+        // Print First Star
+    //     cout << "*";
+
+        // Print Middle Spaces and Second Star
+    //     if (i != 0)
+    //     {
+    //         for (int j = 0; j < 2 * i - 1; j++)
+    //         {
+    //             cout << " ";
+    //         }
+
+    //         cout << "*";
+    //     }
+
+    //     cout << endl;
+    // }
+
+    // Lower Half
+    // for (int i = 0; i < n - 1; i++)
+    // {
+        // Print Left Spaces
+    //     for (int j = 0; j < i + 1; j++)
+    //     {
+    //         cout << " ";
+    //     }
+
+        // Print First Star
+    //     cout << "*";
+
+        // Print Middle Spaces and Second Star
+    //     if (i != (n - 2))
+    //     {
+    //         for (int j = 0; j < 2 * (n - i) - 5; j++)
+    //         {
+    //             cout << " ";
+    //         }
+
+    //         cout << "*";
+    //     }
+
+    //     cout << endl;
+    // }
+
+    // OUTPUT:
+    //          *
+    //         * *
+    //        *   *
+    //       *     *
+    //      *       *
+    //     *         *
+    //    *           *
+    //   *             *
+    //  *               *
+    // *                 *
+    //*                   *
+    // *                 *
+    //  *               *
+    //   *             *
+    //    *           *
+    //     *         *
+    //      *       *
+    //       *     *
+    //        *   *
+    //         * *
+    //          *
 }

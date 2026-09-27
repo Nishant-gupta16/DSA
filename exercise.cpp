@@ -77,3 +77,141 @@ using namespace std;
 //     }
 //      cout<<"Sum of odd number:- "<<sum;
 // }
+
+// int main(){
+//     int n=5;
+//     for(int i =0; i<n;i++){
+//         for(int j=1; j<n;j++){
+//             cout<<j<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// int main(){
+//     int n=4;
+//     int num=1;
+//     for(int i=0; i<n;i++){
+//         for(int j=1;j<n;j++){
+//             cout<<num;
+//             num++;
+
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+// int main(){
+//     char ch='a';
+//     for(int i=0; i<5; i++){
+//         for(int j=0; j<5; j++){
+//             cout<<ch<<' ';
+//             ch+=1;
+
+//         }
+//         cout<<endl;
+
+//     }
+// }
+
+
+// int main(){
+//     char ch='A';
+    
+//     for(int i=0; i<5; i++){
+//         for(int j=0; j<i;j++){
+//             cout<<ch<< " ";
+//             ch+=1;
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// int main(){
+//     int n=5;
+
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<n; j++){
+//             cout<<"* ";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+// int main(){
+//     int n=5;
+//     for(int i=0 ;i<n; i++){
+//         for(int j=0; j<=i; j++){
+//             cout<<"* ";
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+// int main(){
+//     int n=5;
+//     char ch='A';
+//     for(int i=0; i<n; i++){
+        
+//         for(int j=0; j<=i; j++){
+//             cout<<ch<<' ';
+//             ch+=1;
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+// int main(){
+//     int n=5;
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<=i; j++){
+//             cout<<i+1<<' ';
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// int main(){
+//     for(int i=0; i<5; i++){
+//         int num=1;
+//         for(int j=0; j<=i; j++){
+//             cout<<num;
+//            num++;
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// int main(){
+//     int n=5;
+//     int num=1;
+//     for(int i=0; i<n; i++){
+        
+//         for(int j=i; j>0; j--){
+
+//             cout<<num;
+//             num++;
+           
+
+//         }
+//         cout<<endl;
+      
+//     }
+// }
+
+// int main(){
+//     char ch='A';
+
+//     for(int i=0; i<5; i++){
+//         for(int j=i; j>0 ; j--){
+//             cout<<ch;
+//             ch+=1;
+
+//         }
+//         cout<<endl;
+//     }
+// }

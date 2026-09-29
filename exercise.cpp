@@ -215,3 +215,169 @@ using namespace std;
 //         cout<<endl;
 //     }
 // }
+
+// int main(){
+//     int n=4;
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<i; j++){
+//             cout<<' ';
+//         }
+//         for(int j=0; j<n-i; j++){
+//             cout<<(i+1);
+//         }
+//         cout<<endl;
+//     }
+// }
+
+// int main(){
+//     int n=4;
+//     char ch='A';
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<i; j++){
+//             cout<<' ';
+//         }
+//         for(int j=0; j<n-i; j++){
+//             cout<<ch;
+//         }
+//         ch++;
+//         cout<<endl;
+//     }
+// } 
+
+// int main (){
+//     int n=4;
+//     char ch ='A';
+
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<=i; j++){
+//             cout<<ch;
+           
+//         }
+//         ch++;
+//         cout<<endl;
+//     }
+
+// }
+
+// int main(){
+//     int n=10;
+//     // int num=1;
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<n-i-1; j++){
+//             cout<<" ";
+           
+//         }
+//          for(int j=0; j<i+1; j++){
+//                 cout<<"*";
+//             }
+//             for(int j=i; j>0; j--){
+//                 cout<<"*";
+//             }
+//         cout<<endl;
+//     }
+
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<i; j++){
+//             cout<<" ";
+           
+//         }
+//          for(int j=1; j<=n-i; j++){
+//                 cout<<"*";
+//             }
+//             for(int j=0; j<n-i-1; j++){
+//                 cout<<"*";
+//             }
+//         cout<<endl;
+//     }
+// }
+
+// int main(){
+//     int n=5;
+// for(int i=0; i<n; i++){
+//     for(int j=0; j<n-i-1; j++){
+//         cout<<" ";
+//     }
+//     cout<<"*";
+//     if (i!=0){
+//         for(int j=0; j<2*i-1; j++){
+//             cout<<" ";
+//         }
+//         cout<<"*";
+//     }
+//     cout<<endl;
+// }
+
+// for(int i=0; i<n-1; i++){
+//     for(int j=0; j<=i+1; j++){
+//         cout<<" ";
+
+//     }
+//     cout<<"*";
+//     // for(int j=0; j<2*i+1; j++){
+//     //     cout<<" ";
+//     // }
+//     // cout<<"*";
+//     cout<<endl;
+    
+// }
+
+
+// }
+// int  sumN(int n){
+//     int sum=0; 
+//     for(int i=0; i<= n; i++){
+//         sum+=i;
+    
+//     }
+//     return sum; 
+// }
+
+// int main(){
+
+//     cout<<"sum of n number :-"<<sumN(4);
+    
+// }
+
+// int factN(int n){
+//     int fact=1;
+//     for(int i=1; i<=n;i++){
+//         fact*=i;
+//     }
+//     return fact;
+// }
+// int main(){
+//     cout<<"fact of n numbers:-"<<factN(4);
+// }
+
+int main(){
+    int n=5;
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n-i-1; j++){
+            cout<<" ";
+        }
+
+       
+        for(int j=0; j<=i; j++){
+            cout<<"*";
+        }
+
+        for(int j=0; j<i; j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+
+    for(int i=0; i<n; i++){
+        for(int j=0; j<i;j++){
+            cout<<" ";
+        }
+        for(int j=0; j<n-i; j++){
+            cout<<"*";
+        }
+        for(int j=1; j<n-i; j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
+

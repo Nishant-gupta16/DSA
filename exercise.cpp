@@ -349,35 +349,73 @@ using namespace std;
 //     cout<<"fact of n numbers:-"<<factN(4);
 // }
 
-int main(){
-    int n=5;
-    for(int i=0; i<n; i++){
-        for(int j=0; j<n-i-1; j++){
-            cout<<" ";
-        }
+// int main(){
+//     int n=5;
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<n-i-1; j++){
+//             cout<<" ";
+//         }
 
        
-        for(int j=0; j<=i; j++){
-            cout<<"*";
-        }
+//         for(int j=0; j<=i; j++){
+//             cout<<"*";
+//         }
 
-        for(int j=0; j<i; j++){
-            cout<<"*";
-        }
-        cout<<endl;
-    }
+//         for(int j=0; j<i; j++){
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
 
-    for(int i=0; i<n; i++){
-        for(int j=0; j<i;j++){
-            cout<<" ";
-        }
-        for(int j=0; j<n-i; j++){
-            cout<<"*";
-        }
-        for(int j=1; j<n-i; j++){
-            cout<<"*";
-        }
-        cout<<endl;
-    }
-}
+//     for(int i=0; i<n; i++){
+//         for(int j=0; j<i;j++){
+//             cout<<" ";
+//         }
+//         for(int j=0; j<n-i; j++){
+//             cout<<"*";
+//         }
+//         for(int j=1; j<n-i; j++){
+//             cout<<"*";
+//         }
+//         cout<<endl;
+//     }
+// }
 
+
+// int main(){
+//     int num=0;
+
+//     bool isPrime=true;
+
+//     for(int i=2; i*i<num; i++){
+
+//         if(num%i==0){
+//             isPrime=false;
+//         }
+//     }
+//     if(isPrime==true){
+//         cout<<num<<" Is Prime.";
+//     }
+//     else{
+//         cout<<num<< " Is Notprime.";
+//     }
+// }
+
+
+// int binary(int num){
+//     int ans=0; int pow=1;
+//     while(num>0){
+//         int rem=num%2;
+//         num/=2;
+//         ans+=(rem*pow);
+//         pow*=10;
+//     }
+//     return ans;
+
+// }
+
+// int main(){
+
+//     cout<<binary(50);
+
+// }

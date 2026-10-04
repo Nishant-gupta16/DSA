@@ -419,3 +419,19 @@ using namespace std;
 //     cout<<binary(50);
 
 // }
+
+#include <climits>
+int main(){
+
+    int arr[]={23,21,2,34,2,5};
+    int size =sizeof(arr)/sizeof(int);
+    int smallest=INT_MAX;
+    
+    for(int i=0; i<size; i++){
+        if(arr[i]<smallest){
+            smallest=arr[i];
+        }
+
+    }
+    cout<<smallest;
+}

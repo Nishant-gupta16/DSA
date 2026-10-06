@@ -403,7 +403,8 @@ using namespace std;
 
 
 // int binary(int num){
-//     int ans=0; int pow=1;
+//     int ans=0; 
+//     int pow=1;
 //     while(num>0){
 //         int rem=num%2;
 //         num/=2;
@@ -420,18 +421,74 @@ using namespace std;
 
 // }
 
-#include <climits>
-int main(){
+// #include <climits>
+// int main(){
 
-    int arr[]={23,21,2,34,2,5};
-    int size =sizeof(arr)/sizeof(int);
-    int smallest=INT_MAX;
+//     int arr[]={23,21,2,34,2,5};
+//     int size =sizeof(arr)/sizeof(int);
+//     int smallest=INT_MAX;
     
-    for(int i=0; i<size; i++){
-        if(arr[i]<smallest){
-            smallest=arr[i];
-        }
+//     for(int i=0; i<size; i++){
+//         if(arr[i]<smallest){
+//             smallest=arr[i];
+//         }
 
+//     }
+//     cout<<smallest;
+// }
+
+// #include <climits>
+// int main(){
+// int arr[]={34,56,22,4,4,53,5,6,5,334};
+// int size=sizeof(arr)/sizeof(int);
+// int largest=INT_MIN;
+
+// for(int i=0;i<size; i++){
+//     if(arr[i]>largest){
+//         largest=arr[i];
+//     }
+// }
+// cout<<largest;
+// }
+
+// void arrC(int arr[],int size){
+//     for(int i=0; i<size; i++){
+//         arr[i]*=2;
+//     }
+// }
+
+// int main(){
+//     int arr[]={1,2,3};
+//     int size=sizeof(arr)/sizeof(int);
+
+//     arrC(arr,size);
+
+//     for(int i=0; i<size; i++){
+//         cout<<arr[i];
+//     }
+// }
+
+// int main(){
+//     int arr[]={1,2,3,4,5,6,7,8,9,10};
+//     int size=sizeof(arr)/sizeof(int);
+//     int value;
+
+//     for(int i=0;i<size; i++){
+//         value=arr[i];
+//         cout<<value<<endl;
+//     }
+// }
+
+
+int main(){
+    int arr[]={2,4,6,8,10,23,21,1,2,3,46,6,7,8,8,12,14,16,18,20,22,24,26};
+    int size = sizeof(arr)/sizeof(int);
+    int target=4;
+
+    for(int i=0; i<size; i++){
+        if (arr[i]==target){
+            cout<<i;
+        }
     }
-    cout<<smallest;
+    return -1;
 }

@@ -1,3 +1,3 @@
- // for(int j=i; j>0; j--){
-            //     cout<<"*";
-            // }
+    for(int value : vec){
+        cout<<value;
+    }

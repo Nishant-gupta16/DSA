@@ -480,15 +480,39 @@ using namespace std;
 // }
 
 
-int main(){
-    int arr[]={2,4,6,8,10,23,21,1,2,3,46,6,7,8,8,12,14,16,18,20,22,24,26};
-    int size = sizeof(arr)/sizeof(int);
-    int target=4;
+// int main(){
+//     int arr[]={2,4,6,8,10,23,21,1,2,3,46,6,7,8,8,12,14,16,18,20,22,24,26};
+//     int size = sizeof(arr)/sizeof(int);
+//     int target=4;
 
-    for(int i=0; i<size; i++){
-        if (arr[i]==target){
-            cout<<i;
-        }
+//     for(int i=0; i<size; i++){
+//         if (arr[i]==target){
+//             cout<<i;
+//         }
+//     }
+//     return -1;
+// }
+
+
+// int main(){
+//     int arr[]={1,2,3,4,5,6};
+//     int size = sizeof(arr)/sizeof(int);
+//     cout<<size;
+// }
+
+
+#include<vector>
+int main(){
+
+    vector<int>vec= {1,2,3,4,5,6};
+    // vec.pop_back();
+    // vec.push_back(12);
+    // cout<<vec.front()<<endl;
+    // cout<<vec.back()<<endl;
+    // cout<<vec.at(3)<<endl;
+
+     for(int value : vec){
+        cout<<value;
     }
-    return -1;
+
 }

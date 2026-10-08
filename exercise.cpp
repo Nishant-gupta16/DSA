@@ -501,18 +501,35 @@ using namespace std;
 // }
 
 
+// #include<vector>
+// int main(){
+
+//     vector<int>vec= {1,2,3,4,5,6};
+//     // vec.pop_back();
+//     // vec.push_back(12);
+//     // cout<<vec.front()<<endl;
+//     // cout<<vec.back()<<endl;
+//     // cout<<vec.at(3)<<endl;
+
+//      for(int value : vec){
+//         cout<<value;
+//     }
+
+// }
+
 #include<vector>
+
 int main(){
 
-    vector<int>vec= {1,2,3,4,5,6};
-    // vec.pop_back();
-    // vec.push_back(12);
-    // cout<<vec.front()<<endl;
-    // cout<<vec.back()<<endl;
-    // cout<<vec.at(3)<<endl;
+    // vector<int>vec;
+    // vec.push_back(0);
+    // vec.push_back(1);
+    // vec.push_back(3);
+    // vec.push_back(3);
+    // vec.push_back(3);
 
-     for(int value : vec){
-        cout<<value;
-    }
+
+    cout<<vec.size()<<endl;
+    cout<<vec.capacity();
 
 }

@@ -517,19 +517,36 @@ using namespace std;
 
 // }
 
-#include<vector>
+// #include<vector>
 
-int main(){
+// int main(){
 
-    // vector<int>vec;
-    // vec.push_back(0);
-    // vec.push_back(1);
-    // vec.push_back(3);
-    // vec.push_back(3);
-    // vec.push_back(3);
+//     // vector<int>vec;
+//     // vec.push_back(0);
+//     // vec.push_back(1);
+//     // vec.push_back(3);
+//     // vec.push_back(3);
+//     // vec.push_back(3);
 
 
-    cout<<vec.size()<<endl;
-    cout<<vec.capacity();
+//     cout<<vec.size()<<endl;
+//     cout<<vec.capacity();
 
-}
+// }
+
+
+
+// int main(){
+//     int arr[]={2,3,4,5};
+//     int size = sizeof(arr)/sizeof(int);
+
+//     for(int st=0; st<size; st++){
+//         for(int end=st; end<size; end++){
+//             for(int i=st; i<=end; i++){
+//                 cout<<arr[i];
+//             }
+//             cout<<" ";
+//         }
+//         cout<<endl;
+//     }
+// }

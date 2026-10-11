@@ -550,3 +550,25 @@ using namespace std;
 //         cout<<endl;
 //     }
 // }
+
+// #include<vector>
+// int main(){
+//     vector<int>vec={2,3,4,5,6,7};
+
+//     int st=0;
+//     int end=vec.size()-1;
+
+//     while(st<end){
+//         swap(vec[st],vec[end]);
+//         st++;
+//         end--;
+//     }
+
+//     for(int i : vec){
+//         cout<<i<<" ";
+//     }
+
+
+// }
+
+

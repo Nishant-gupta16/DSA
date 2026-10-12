@@ -571,4 +571,149 @@ using namespace std;
 
 // }
 
+// #include<vector>
 
+// int main(){
+//     vector<int>arr={2,3,4,5,6};
+
+//     int sum=0;
+//     int product=1;
+
+//     for(int i:arr){
+//         sum=i+sum;
+//         product=i*product;
+//     }
+
+//     cout<<"sum:- "<<sum<<endl;
+//     cout<<"product:- "<<product;
+// }
+
+// int main(){
+//     int num=12;
+
+//     if(num%2==0){
+//     cout<<"even";
+//     }
+//     else{
+//         cout<<"odd";
+//     }
+// }
+
+
+// int main(){
+
+//     int num=-1;
+
+//     if(num>0){
+//         cout<<"Positive";
+//     }
+//     else if(num==0){
+//         cout<<"Zero";
+//     }
+//     else{
+//         cout<<"Nigative";
+//     }
+// }
+
+// int main(){
+//     int a=3,b=6;
+//    cout<<"Before swap Number a:-"<<a<<" "<<"b:-"<<b<<endl;
+
+//    int tamp=a;
+//    a=b;
+//    b=tamp;
+   
+
+//    cout<<"After swap number a:-"<<a<<" "<<"b:-"<<b;
+// }
+
+
+// int main(){
+//     int a=5; 
+//     int b=9;
+
+//     a=a+b;
+//     b=a-b;
+//     a=a-b;
+//     cout<<a<<" "<<b;
+// }
+
+// int main(){
+//     int num=1234;
+//     int revers=0;
+
+//     int tamp=num;
+
+//     while(tamp !=0){
+
+//         int disit =tamp%10;
+//         revers=revers*10+disit;
+//         tamp/=10;
+//     }
+//      cout<<revers;
+//      return 0;
+
+// }
+
+// int main(){
+//     int num=121;
+//     int rev=0;
+
+//     int tamp=num;
+//     while(tamp!=0){
+//         int disit= tamp%10;
+//         rev=rev*10+disit;
+//         tamp/=10;
+//     }
+//     if(rev==num){
+//         cout<<"palindrom";
+//     }
+//     else{
+//         cout<<"Not palindrom";
+//     }
+// }
+
+// int main(){
+//     int num=121;
+//     bool ispalindrom=true;
+//     for(int i=2; i*i<num; i++){
+
+//         if(num%i==0)
+//         {
+//             ispalindrom=false;
+//         }
+       
+//     }
+//     if(ispalindrom==true){
+//         cout<<"palindrom";
+//     }
+//     else{
+//         cout<<"not palindrom";
+//     }
+//     return 0;
+// }
+
+
+// int main(){
+//     int num=5;
+//     int fact=1;
+
+//     for(int i=1; i<=num; i++){
+//         fact*=i;
+
+//     }
+//     cout<<fact;
+// }
+ 
+
+// int main(){
+//     int num=1234;
+//     int sum=0;
+//     while(num!=0){
+//         int digit=num%10;
+//         sum+=digit;
+//         num/=10;
+//     }
+
+//     cout<<sum;
+// }

@@ -54,21 +54,51 @@ using namespace std;
 // }
 
 
-int main(){
-    vector<int>arr={1,-2,4,6,8,-10};
-    int n=6;
+// int main(){
+//     vector<int>arr={1,-2,4,6,8,-10};
+//     int n=6;
 
-    int maxSum=INT_MIN;
-    int arrSum=0;
+//     int maxSum=INT_MIN;
+//     int arrSum=0;
 
-    for(int i=0; i<n;i++){
-        arrSum+=arr[i];
-        maxSum=max(arrSum,maxSum);
+//     for(int i=0; i<n;i++){
+//         arrSum+=arr[i];
+//         maxSum=max(arrSum,maxSum);
 
-        if(arrSum<0){
-            arrSum=0;
-        }
-    }
-    cout<<maxSum;;
-}
+//         if(arrSum<0){
+//             arrSum=0;
+//         }
+//     }
+//     cout<<maxSum;
+// }
+
+
+// int main(){
+//     vector<int>arr={2,3,4,5,6};
+//     int target=9;
+
+//     vector<int>sum;
+    
+//     int arrSum=0;
+//     int i=0;
+//     int j=arr.size()-1;
+
+
+//     while(i<j){
+//         arrSum=arr[i]+arr[j];
+
+//         if(arrSum<target){
+//             i++;
+//         }
+//         else if(arrSum>target){
+//             j--;
+//         }
+//         else{
+//             sum.push_back(i);
+//             sum.push_back(j);
+//             break;
+//         }
+//     }
+//   cout<<sum[0]<<','<<sum[1];
+// }
 

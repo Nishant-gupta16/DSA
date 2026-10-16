@@ -1,4 +1,5 @@
 #include<iostream>
+#include<vector>
 using namespace std;
 
 // int main (){
@@ -721,3 +722,33 @@ using namespace std;
 // int main(){
 
 // }
+
+// int main(){
+//     vector<int>arr={1,2,3,4,5,6,7,8,9};
+//     int i=0; int j=arr.size()-1;
+//     vector<int>ind;
+//     int arrSum=0;
+//     int target=15;
+    
+//     while(j<arr.size()){
+//         arrSum=arr[i]+arr[j];
+//         if(arrSum>target){
+//             j--;
+//         }
+//         else if(arrSum<target){
+//             i++;
+//         }
+//         else{
+//             ind.push_back(i);
+//             ind.push_back(j);
+//             break;
+//         }
+//     }
+
+//     cout<<ind[0]<<","<<ind[1];
+
+// }
+
+
+
+

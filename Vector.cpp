@@ -104,22 +104,22 @@ using namespace std;
 
 
 
-int main(){
-    vector<int>arr={2,2,2,3,3,3,4,4,5,5,6,6};
+// int main(){
+//     vector<int>arr={2,2,2,3,3,3,4,4,5,5,6,6};
 
 
-    int st=0; 
-    int end=1;
+//     int st=0; 
+//     int end=1;
 
-    while(end<arr.size()){
+//     while(end<arr.size()){
 
-        if(arr[st]!=arr[end]){
-            st++;
-            arr[st]=arr[end];
-        }
+//         if(arr[st]!=arr[end]){
+//             st++;
+//             arr[st]=arr[end];
+//         }
 
-        end++;
-    }
+//         end++;
+//     }
    
-    cout<<"Numbers of unique Number:- "<<st+1;
-}
+//     cout<<"Numbers of unique Number:- "<<st+1;
+// }

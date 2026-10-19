@@ -749,6 +749,71 @@ using namespace std;
 
 // }
 
+// int main(){
+//     int num=1234;
+//     int rev=0;
+//     int i=1;
+//   while(num>0){
+//     int disit =num%10;
+//     rev=rev*10+disit;
+//     num/=10;
+//   }
+//     cout<<rev   ;
+// }
+
+
+// int main(){
+//     int n=10;
+
+//     for(int i=1; i<=n; i++){
+//         cout<<i;
+//     }
+// }
+
+// int main(){
+//     int n=10; 
+//     for(int i=10; i>=1; i--){
+//         cout<<i<<" ";
+//     }
+// }
+
+// int main(){
+//     int n=10;
+//     for(int i=1; i<=n; i++){
+
+//         if(i%2==0){
+//             cout<<i;
+//         }
+//     }
+// }
+
+// int main(){
+//     int n=10;
+//     for(int i=1; i<=n; i++){
+
+//         if(i%2!=0){
+//             cout<<i;
+//         }
+//     }
+// }
+
+
+// int main() {
+//     int n = 10;
+
+//     for (int i = 1; i <= n; i++) {
+//         for (int j = 1; j <= n; j++) {
+//             cout << i << "*" << j << "=" << i * j << endl;
+//         }
+//         cout << endl;
+//     }
+
+//     return 0;
+// }
+
+
+
+
 
 
 

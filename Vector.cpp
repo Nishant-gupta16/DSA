@@ -123,3 +123,23 @@ using namespace std;
    
 //     cout<<"Numbers of unique Number:- "<<st+1;
 // }
+
+
+// int main(){
+//     vector<int> arr={1,2,3,1,1,1};
+//     int n=arr.size();
+//     int ans;
+
+//     for(int val:arr){
+//         int frq=0;
+//         for(int en: arr){
+//             if(val==en){
+//                 frq++;
+//             }
+//         }
+//         if(frq>n/2){
+//            ans=val;
+//         }
+//     }
+//     cout<<ans;
+// }

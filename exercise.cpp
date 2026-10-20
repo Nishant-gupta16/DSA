@@ -1,6 +1,7 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+#include<climits>
 
 // int main (){
 //       int a=4;
@@ -810,6 +811,23 @@ using namespace std;
 
 //     return 0;
 // }
+
+// int main(){
+//     vector<int> arr={3,-4,5,4,-1,7,-8};
+//     int arrSum=INT_MIN;
+//     int sum=0;
+//     int i=0, j=arr.size()-1;
+//     for(int i=0; i<arr.size();i++ ){
+//         sum+=arr[i];
+//         arrSum=max(sum,arrSum);
+//          if(sum<0){
+//             sum=0;
+//          }
+//     }
+//     cout<<arrSum;
+// }
+
+
 
 
 

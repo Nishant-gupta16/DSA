@@ -144,17 +144,67 @@ using namespace std;
 //     cout<<ans;
 // }
 
-int main(){
-    vector<int> arr={1,2,3,4,5};
-    int size = arr.size();
-    for(int st=0; st<size; st++){
-        for(int j=st; j<size; j++){
-            for(int i=st; i<=j; i++){
-                cout<<arr[i];
-            }
-            cout<<" ";
+// int main(){
+//     vector<int> arr={1,2,3,4,5};
+//     int size = arr.size();
+//     for(int st=0; st<size; st++){
+//         for(int j=st; j<size; j++){
+//             for(int i=st; i<=j; i++){
+//                 cout<<arr[i];
+//             }
+//             cout<<" ";
 
+//         }
+//         cout<<endl;
+//     }
+// }
+
+
+// int main(){
+//     vector<int> arr={1,2,3,-4,5,-2};
+//     int size=arr.size();
+//     int maxSum=INT_MIN;
+
+//     for(int st=0; st<size; st++){
+//         int cm=0;
+//         for(int i=st; i<size; i++){
+//             cm+=arr[i];
+//             maxSum=max(cm,maxSum);
+//         } 
+//     }
+//     cout<<maxSum;
+// }
+
+
+// int main(){
+//     vector <int> arr={-2,-3,-4,-4,-2,-1};
+//     int cm =0; int maxSum=INT_MIN;
+
+//     for(int i=0; i<arr.size(); i++){
+//         cm+=arr[i];
+//         maxSum= max(cm,maxSum);
+//         if(cm<0){
+//             cm=0;
+//         }
+//     }
+//     cout<<maxSum;
+// }
+
+
+int main(){
+    vector<int>arr={1,2,3,4,5};
+    int target=9;
+    vector<int>ans;
+    int size =arr.size();
+
+    for(int i=0; i<size; i++){
+        for(int j=i+1; j<size; j++){
+            if (arr[i]+arr[j]==target){
+                ans.push_back(i);
+                ans.push_back(j);
+            }
         }
-        cout<<endl;
     }
+   cout<<ans[0]<<","<<ans[1];
+
 }

@@ -143,3 +143,18 @@ using namespace std;
 //     }
 //     cout<<ans;
 // }
+
+int main(){
+    vector<int> arr={1,2,3,4,5};
+    int size = arr.size();
+    for(int st=0; st<size; st++){
+        for(int j=st; j<size; j++){
+            for(int i=st; i<=j; i++){
+                cout<<arr[i];
+            }
+            cout<<" ";
+
+        }
+        cout<<endl;
+    }
+}

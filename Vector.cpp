@@ -2,6 +2,7 @@
 using namespace std;
 #include<vector>
 #include<climits>
+#include <algorithm>    
 
 
 
@@ -191,20 +192,87 @@ using namespace std;
 // }
 
 
+// int main(){
+//     vector<int>arr={1,2,3,4,5};
+//     int target=9;
+//     vector<int>ans;
+//     int size =arr.size();
+
+//     for(int i=0; i<size; i++){
+//         for(int j=i+1; j<size; j++){
+//             if (arr[i]+arr[j]==target){
+//                 ans.push_back(i);
+//                 ans.push_back(j);
+//             }
+//         }
+//     }
+//    cout<<ans[0]<<","<<ans[1];
+
+// }
+
+// int main(){
+//     vector<int> arr= {2,3,4,5,6};
+//     vector<int>ans;
+//     int target=9;
+//     int size=arr.size();
+//     int ps=0;
+
+//     int st=0; int end=size-1;
+    
+//     while(st<end){
+//         ps=arr[st]+arr[end];
+
+//         if (ps==target){
+//               ans.push_back(st);
+//               ans.push_back(end);
+//               break;
+//         }
+//        else if(ps>target){
+//             end--;
+//         }
+//         else{
+//             st++;
+//         }  
+//     }
+//     for(int i: ans){
+//         cout<<i<<" ";
+//     }
+// }
+
+// int main(){
+//     vector<int>arr={2,1,1,3,1,1};
+//     int mj= arr.size();
+   
+//     for(int i:arr){
+//          int freq=0;
+//         for(int j:arr){
+//             if (i==j){
+//                 freq++;
+//             }
+//         }
+//         if(freq>mj/2){
+//             cout<<i;
+//         }        
+//     }
+// }
+
 int main(){
-    vector<int>arr={1,2,3,4,5};
-    int target=9;
-    vector<int>ans;
-    int size =arr.size();
+    vector<int>arr={2,2,3,2,1};
+   
+    int size=arr.size();
+    int freq=0; int ans=0;
 
     for(int i=0; i<size; i++){
-        for(int j=i+1; j<size; j++){
-            if (arr[i]+arr[j]==target){
-                ans.push_back(i);
-                ans.push_back(j);
-            }
+
+        if(freq==0){
+            ans =arr[i];
+        }
+        if(ans==arr[i]){
+           freq++;
+        }
+        else{
+            freq--;
         }
     }
-   cout<<ans[0]<<","<<ans[1];
-
+    cout<<ans;
 }

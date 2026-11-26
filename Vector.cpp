@@ -256,23 +256,48 @@ using namespace std;
 //     }
 // }
 
-int main(){
-    vector<int>arr={2,2,3,2,1};
+// int main(){
+//     vector<int>arr={2,2,3,2,1};
    
-    int size=arr.size();
-    int freq=0; int ans=0;
+//     int size=arr.size();
+//     int freq=0; int ans=0;
 
-    for(int i=0; i<size; i++){
+//     for(int i=0; i<size; i++){
 
-        if(freq==0){
-            ans =arr[i];
-        }
-        if(ans==arr[i]){
-           freq++;
-        }
-        else{
-            freq--;
-        }
+//         if(freq==0){
+//             ans =arr[i];
+//         }
+//         if(ans==arr[i]){
+//            freq++;
+//         }
+//         else{
+//             freq--;
+//         }
+//     }
+//     cout<<ans;
+// }
+
+int main(){
+    double x=2;
+    int n=5;
+
+    long long power =n;
+
+    if(n<0){
+        x=1/x;
+        power=-power;
     }
+
+    long long ans=1;
+
+    while(power>0){
+        if (power%2==1){
+            ans*=x;
+        }
+
+        x*=x;
+        power/=2;
+    }
+
     cout<<ans;
 }

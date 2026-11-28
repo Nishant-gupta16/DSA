@@ -862,9 +862,134 @@ using namespace std;
 // }
 
 
+// int main()
+// {
+//     cout<<"Hello word";
+    
+// }
+
+// int main(){
+//     int a=10;
+//     int b=2;
+
+//     int c;
+//     c=a;
+//     a=b;
+//     b=c;
+//     cout<<a<<" "<<b
+
+//     a=a+b;
+//     b=a-b;
+//     a=a-b;
+//     cout<<"a= "<<a<<endl<<"b= "<<b;
+// }
 
 
+// int main(){
+//     int num=11;
 
+//     if(num==0){
+//         cout<<"Number is zero.";
+//     }
+//    else if(num%2==0){
+//         cout<<"Number is even.";
+//     }
+    
+//     else{
+//         cout<<"Num is odd.";
+//     }
+// }
+
+// int main(){
+//     int a=444, b=23, c=111;
+
+//     if(a>b&&a>c){
+//         cout<<a<<" is largest of three numbers.";
+//     }
+//     else if(b>a&&b>c){
+//         cout<<b<<" is largest of three numbers.";
+//     }
+//     else{
+//         cout<<c<<" is largest of three numbers.";
+//     }
+// }
+
+// int main(){
+//     int num=22;
+
+//     if(num==0){
+//         cout<<"Number is zero.";
+//     }
+//     else if(num>0){
+//         cout<<"Number is positive.";
+//     }
+//     else{
+//         cout<<"Number is negative.";
+//     }
+// }
+
+// int main(){
+//     int num=5;
+//     int fact =1;
+
+//     for(int i=1; i<=num ;i++){
+
+//         fact = fact*i;
+
+//     }
+
+//     cout<<"Factorial of given number= "<<fact;
+// }
+
+// int main(){
+//     int num=2;
+
+//     for(int i=1; i<=10; i++){
+//         cout<<num*i<<endl;
+//     }
+// }
+
+    // int main(){
+    //     int num=10;
+    //     int numOfsum=0;
+
+    //     for(int i=0; i<=num ;i++){
+    //        numOfsum=numOfsum+i;
+    //     }
+
+    //     cout<<"Sum of the number= "<<numOfsum;
+    // }
+
+// int main(){
+//     int i=123;
+//     int rev=0;
+
+//     while(i>0){
+//         int tamp =i%10;
+//         rev= rev*10+tamp;
+//         i=i/10;
+
+//     }
+//     cout<<rev;
+// }
+
+
+// int main(){
+//     int num=12;
+//     int dub=num;
+//     int rev=0;
+//     while(dub>0){
+//         int tamp=dub%10;
+//         rev=rev*10+tamp;
+//         dub=dub/10;
+//     }
+//     if(rev==num){
+//         cout<<"number is palindrom";
+//     }
+//     else{
+//         cout<<"Number is not palindrom.";
+//     }
+// }
 
 
 
